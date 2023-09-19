@@ -3,8 +3,10 @@
       This repository contains a small Python script  which will help you to refine or filter the output file of ffuf tool.
 
 > what it does:
-when you run ffuf tool for directory busting and and save the output in file with -o flag
-example: ffuf -u http://localhost/FUZZ -w /usr/share/wordlists/dirb/common.txt -o ffuf2.txt
+
+when you run ffuf tool for directory busting and and save the output in file with -o flag.
+
+Example: ffuf -u http://localhost/FUZZ -w /usr/share/wordlists/dirb/common.txt -o ffuf2.txt
 
      
 > How tO use:
